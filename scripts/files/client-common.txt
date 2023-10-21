@@ -1,0 +1,13 @@
+client
+dev tun
+proto udp
+remote IP_ADDRESS 1194
+resolv-retry infinite
+nobind
+persist-key
+persist-tun
+remote-cert-tls server
+auth SHA512
+cipher AES-256-CBC
+ignore-unknown-option block-outside-dns
+verb 3

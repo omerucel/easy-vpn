@@ -1,0 +1,4 @@
+boto3==1.28.68
+paramiko==3.3.1
+pick==2.2.0
+tabulate==0.9.0
